@@ -1,0 +1,38 @@
+﻿DRILL 2
+PROCEDURAL
+….
+Int main(){
+Card card;
+AddName(card,1);
+addRoll(card,1);
+addClass(card,1);
+addBatch(card,1);
+AddSubject(card,5);
+Grades(card,5);
+Total(card,1);
+Std::cout<<”result is ready”;
+Return 0;
+}
+
+OBJECT ORIENTED
+…
+Int main(){
+Card card;
+Name name(1);
+Roll roll(1);
+Class class(1);
+Batch batch(1);
+Subject subject(5);
+Grades grades(5);
+Total total(1);
+Card add(name);
+Card.add(roll);
+Card.add(class);
+Card.add(batch);
+Card.add(subjects);
+Card.add(grades);
+Card.add(total);
+Std::cout<<”result is ready”;
+return 0;
+}
+
