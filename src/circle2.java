@@ -1,7 +1,15 @@
-class circle
+class circle2
 {
-	 double radius; 
+	 private double radius; 
 	double area;
+	public void setRadius()
+	{
+		radius=5;
+	}
+	public void getRadius()
+	{
+		System.out.print(radius);
+	}
 	void findarea()
 	{
 	area=3.14*radius*radius;
@@ -11,7 +19,7 @@ class circle
 	System.out.print("The area is:" +area);
 	}
 }
-class circledemo
+class circledemo2
 {
 	public static void main(String args[])
 	{
