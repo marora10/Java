@@ -16,7 +16,7 @@ public class operator {
             break;
 
         case '-':
-            Double diff= firstnumber + secondnumber;
+            Double diff= firstnumber - secondnumber;
             System.out.print("difference is " +diff);
             break;
 

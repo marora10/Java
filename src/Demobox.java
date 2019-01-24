@@ -9,6 +9,6 @@ class Demobox
 	System.out.print("the area is:" +area);
 	perimeter=mybox2.getperimeter();
 	System.out.print("the perimeter is:" +perimeter);
-    mybox2.print();
+      mybox2.print();
 	}
 }

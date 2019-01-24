@@ -1,5 +1,5 @@
 import java.util.*;
-class number
+class array3
 {
 public static void main(String[] args) 
 {

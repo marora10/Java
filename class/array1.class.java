@@ -1,6 +1,5 @@
 import java.util.*;
-class array1
- {
+class Array1 {
 	public static void main(String args[])
 	{
 		int x[];
@@ -26,10 +25,9 @@ class array1
 	  { 
 	  case 1:
 	  System.out.println("okay");
-	  break;
 	  default:
 	  System.out.println("-1");
-	  break;
 	  }
+
 	}
 }
